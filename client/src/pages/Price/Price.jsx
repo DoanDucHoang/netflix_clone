@@ -142,9 +142,11 @@ export default function price() {
                       <small><span>Chỉ những người sống cùng bạn mới có thể dùng tài khoản của bạn. Xem trên 4 thiết bị khác nhau cùng lúc với gói Cao cấp, 2 với gói Tiêu chuẩn và 1 với gói Cơ bản và Di động.</span></small>
                   </div>
                   <div className="button">
-                      <button>
-                        <Link to="/Login" className="text">Xác nhận</Link> 
-                      </button>
+                      <Link to="/Login" className="text">
+                        <button>
+                            Xác nhận
+                        </button>
+                        </Link> 
                   </div>
               </div>
           </div>

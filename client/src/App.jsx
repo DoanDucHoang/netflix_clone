@@ -6,7 +6,7 @@ import Register from "./pages/register/Register";
 import Modal from "./components/modal/modal";
 import Login from "./pages/Login/Login";
 import Price from "./pages/Price/Price";
-import { Route, Routes } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
 const App = () => {
 
   return (
@@ -14,6 +14,7 @@ const App = () => {
     <>
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/Modal" element={<Modal/>} />
           <Route path="/Price" element={ <Price/>} />
           <Route path="/Login" element={ <Login/>} />
           <Route path="/Register" element={ <Register/>}/>

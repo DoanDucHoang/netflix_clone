@@ -1,12 +1,12 @@
 .modalbackground {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(#191818, 0.8);
+    background-color: #191818;
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    
 }
 
 .modalcontainer {
@@ -19,7 +19,7 @@
     flex-direction: column;
     padding: 25px;
     color: #ffff;
-    
+    position: relative;
 
     .iconlock {
         text-align: center;

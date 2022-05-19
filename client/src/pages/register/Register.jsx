@@ -44,10 +44,12 @@ export default function Register() {
           </div>
         ) : (
           <form className="input">
-            <input type="password" placeholder="password" ref={passwordRef} />
-            <button className="registerButton" onClick={handleFinish}>
-              <Link to="/Price" className="text">Bắt đầu</Link> 
-            </button>
+              <input type="password" placeholder="password" ref={passwordRef} />
+              <Link to="/Price" className="text">
+                <button className="registerButton" onClick={handleFinish}>
+                      Bắt đầu
+                </button>
+                </Link> 
           </form>
         )}
       </div>

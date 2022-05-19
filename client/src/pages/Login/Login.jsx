@@ -1,8 +1,11 @@
 import "./Login.scss";
 import logo from "../../assets/logohoang.png";
 import { Link } from 'react-router-dom';
+import {useState} from 'react';
+import Home from "../Home/Home";
 
-export default function Login() {
+export default function Login(props) {
+
   return (
     <div className="login">
       <div className="top">
@@ -17,9 +20,10 @@ export default function Login() {
       <div className="container">
         <form>
           <h1>Đăng nhập</h1>
-          <input type="email" placeholder="Email or phone number" />
+          <input type="email" placeholder="Email or phone number"/>
           <input type="password" placeholder="Password" />
-          <button className="loginButton"> <Link to="/" className="text">Đăng nhập</Link></button>
+            <Link to="/" className="text"><button className="loginButton"> Đăng nhập </button></Link>
+          
           <span>
             New to HOANG? <b> <Link to="/Register" className="text">Đăng ký ngay.</Link> </b>
           </span>

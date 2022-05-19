@@ -47,6 +47,7 @@ export default function Featured({type}) {
                   </div>
               </div>
           </div>
-    </div>
+      </div>
+      
   )
 }

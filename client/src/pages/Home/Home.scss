@@ -1,5 +1,9 @@
 .home{
     background-color: var(--main-color);
-    overflow: hidden;
-    position: relative;
+    overflow-x: hidden; 
+
+    .modal {
+        position: fixed;
+        z-index: 99;
+    }
 }
